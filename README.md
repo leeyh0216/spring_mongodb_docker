@@ -20,7 +20,7 @@
 
 6. ```docker service create --name spring-boot-test -p 8080:8080 --network backend spring-boot-test:0.1``` 명령어를 통해 spring-boot-test Docker Service를 생성합니다.
 
-7. ```docker service create --name mongodb -p 8080:8080 --network backend mongo:3.6``` 명령어를 통해 MongoDB Service를 생성합니다.
+7. ```docker service create --name mongodb -p 27017:27017 --network backend mongo:3.6``` 명령어를 통해 MongoDB Service를 생성합니다.
 
 ## 테스트 방법
 
